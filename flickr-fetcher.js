@@ -1,4 +1,3 @@
-var jQuery = require('jQuery');
 var FlickerFetcher;
 
 FlickerFetcher = {
