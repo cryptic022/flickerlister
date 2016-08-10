@@ -15,7 +15,7 @@ FlickerFetcher = {
             fetch = jQuery.getJSON.bind(jQuery);
        };
         var url = 'https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key='
-            + apiKey.toString() + '&text=pugs&format=json&nojsoncallback=1';
+            + apiKey.toString() + '&text=cats&format=json&nojsoncallback=1';
         return fetch(url);
     },
     fetchPhoto: function(apiKey,fetch){
